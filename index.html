@@ -14,9 +14,8 @@
     <div class="container">
 
         <div class="header-nav">
-
+            <img src="src/images/header/Frame%2064.png" alt="" class="logo">
             <nav class="header_menu">
-                <img src="src/images/header/Frame%2064.png" alt="" class="logo">
                 <a href="" class="header-a">Home</a>
                 <a href="" class="header-a">Pages</a>
                 <a href="" class="header-a">Contact Us</a>
@@ -98,14 +97,23 @@
 
                     </div>
                     <div class="l">
-
-                        <input type="number" class="book-2" value="" placeholder="person">
-
-                        <input class="book-2" type="date" placeholder="person">
-
-
-                        <input class="book-3" type="time" placeholder="person">
-
+                        <div class="tabs">
+                            <input type="radio" name="tab-btn" id="tab-btn-1" value=""  checked>
+                            <label for="tab-btn-1">person</label>
+                            <input type="radio" name="tab-btn" id="tab-btn-2" value="" >
+                            <label for="tab-btn-2">date</label>
+                            <input type="radio" name="tab-btn" id="tab-btn-3" value="" >
+                            <label for="tab-btn-3">time</label>
+                            <div id="content-1">
+                                <input type="number" class="book-2" value=""  placeholder="person">
+                            </div>
+                            <div id="content-2">
+                                <input type="date"  class="book-2" value=""  placeholder="person">
+                            </div>
+                            <div id="content-3">
+                                <input type="time"  class="book-3" value=""  placeholder="person">
+                            </div>
+                        </div>
                     </div>
                     <button class="book-btn">Book Now</button>
                 </div>
